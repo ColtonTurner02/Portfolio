@@ -1,8 +1,16 @@
 # Bash Shell Mimic in C
-•	This is a shell in c from scratch that mimics the bash shell on Unix systems.
-•	The shell featured the same built-in functions as the bash shell with Serial, Parallel, and Background execution of forked processes.
-•	Gained experience in process creation and child management as well as signal handling.
-# Run
-Compile via: gcc myshell.c -o myshell
-Run: ./myshell
 
+A simple shell implementation in **C** that mimics the core functionality of the Unix **bash** shell.  
+
+This project was built from scratch to explore process management, inter-process communication, and signal handling in Unix-like environments.  
+
+## Features
+- Implements several built-in commands similar to the Bash shell  
+- Supports **serial**, **parallel**, and **background** execution of forked processes  
+- Demonstrates process creation, child management, and signal handling  
+
+## Getting Started
+
+### Compilation
+```bash
+gcc myshell.c -o myshell
